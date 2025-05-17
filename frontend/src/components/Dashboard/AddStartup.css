@@ -1,0 +1,90 @@
+/* AddStartup.css */  
+.add-startup-container {  
+  max-width: 600px;  
+  margin: 0 auto;  
+  padding: 20px;  
+  border: 1px solid #ccc;  
+  border-radius: 8px;  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+  background-color: #ffffff;  
+}  
+
+.add-startup-container h2 {  
+  text-align: center;  
+  color: #333;  
+  margin-bottom: 20px;  
+}  
+
+.add-startup-container form {  
+  display: flex;  
+  flex-direction: column;  
+}  
+
+.add-startup-container input,  
+.add-startup-container textarea {  
+  margin-bottom: 15px;  
+  padding: 10px;  
+  border: 1px solid #ccc;  
+  border-radius: 4px;  
+  font-size: 16px;  
+  transition: border-color 0.3s;  
+}  
+
+.add-startup-container input:focus,  
+.add-startup-container textarea:focus {  
+  border-color: #007bff;  
+  outline: none;  
+}  
+
+.add-startup-container button {  
+  padding: 10px;  
+  border: none;  
+  border-radius: 4px;  
+  background-color: #007bff;  
+  color: white;  
+  font-size: 16px;  
+  cursor: pointer;  
+  transition: background-color 0.3s;  
+}  
+
+.add-startup-container button:hover {  
+  background-color: #0056b3;  
+}  
+
+.founder-container {  
+  display: flex;  
+  flex-direction: column;  
+  margin-bottom: 15px;  
+}  
+
+.founder-container input {  
+  margin-right: 10px;  
+  flex: 1;  
+}  
+
+.remove-founder-button {  
+  background-color: #dc3545;  
+  margin-top: 5px;  
+}  
+
+.remove-founder-button:hover {  
+  background-color: #c82333;  
+}  
+
+.success-message {  
+  color: green;  
+  padding: 10px;  
+  background-color: #e7f9ed;  
+  border: 1px solid #c3e6cb;  
+  border-radius: 4px;  
+  margin: 15px 0;  
+}  
+
+.error-message {  
+  color: red;  
+  padding: 10px;  
+  background-color: #f8d7da;  
+  border: 1px solid #f5c6cb;  
+  border-radius: 4px;  
+  margin: 15px 0;  
+}

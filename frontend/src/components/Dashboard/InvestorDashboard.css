@@ -1,0 +1,182 @@
+.investor-db-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #000000;
+  padding: 2rem;
+}
+
+.investor-db-content {
+  width: 100%;
+  max-width: 1400px;
+  padding: 2rem;
+}
+
+.investor-db-title {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.investor-db-message {
+  background-color: #e74c3c;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.investor-db-message-success {
+  background-color: #28a745;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  animation: fadeOut 2s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+.investor-db-pitch-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.investor-db-pitch-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.investor-db-pitch-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.investor-db-pitch-title {
+  color: #333333;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.investor-db-pitch-text {
+  color: #666666;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.investor-db-pitch-text strong {
+  color: #333333;
+}
+
+.investor-db-status {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.investor-db-status-pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.investor-db-status-approved {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.investor-db-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  justify-content: flex-end;
+}
+
+.investor-db-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.investor-db-button-approve {
+  background-color: #28a745;
+  color: white;
+}
+
+.investor-db-button-approve:hover {
+  background-color: #218838;
+}
+
+.investor-db-button-details {
+  background-color: #007bff;
+  color: white;
+}
+
+.investor-db-button-details:hover {
+  background-color: #0056b3;
+}
+
+.investor-db-button-reject {
+  background-color: #dc3545;
+  color: white;
+}
+
+.investor-db-button-reject:hover {
+  background-color: #c82333;
+}
+
+@media (max-width: 1024px) {
+  .investor-db-pitch-list {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .investor-db-content {
+    padding: 1rem;
+  }
+
+  .investor-db-pitch-list {
+    grid-template-columns: 1fr;
+  }
+
+  .investor-db-title {
+    font-size: 2rem;
+  }
+
+  .investor-db-actions {
+    flex-direction: column;
+  }
+
+  .investor-db-button {
+    width: 100%;
+  }
+}

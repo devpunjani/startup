@@ -1,0 +1,98 @@
+* {  
+  margin: 0;  
+  padding: 0;  
+  box-sizing: border-box;  
+}  
+
+.header {  
+  background-color: #000; 
+  color: #fff;  
+  display: flex;  
+  justify-content: space-between;  
+  align-items: center;  
+  padding: 15px 20px;  
+  width: 100%;    
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s ease; 
+}  
+ 
+.brand {  
+  font-size: 25px;  
+  font-weight: bold;  
+}  
+
+.brand a {  
+  color: #fff;  
+  text-decoration: none;  
+}  
+  
+.brand a:hover {  
+  color: #d3d3d3; 
+}  
+
+.nav-links {  
+  display: flex;  
+  gap: 30px; 
+  list-style: none;
+}  
+
+.nav-links a {  
+  color: #fff;  
+  text-decoration: none;  
+  font-size: 16px;  
+  transition: color 0.3s ease;  
+}  
+
+.nav-links a:hover {  
+  color: #d3d3d3; 
+}  
+
+.auth-buttons {  
+  display: flex;  
+  gap: 10px;  
+}  
+
+.auth-buttons button {  
+  padding: 8px 16px;  
+  border-radius: 5px;  
+  font-size: 16px;  
+  cursor: pointer;  
+  transition: background 0.3s ease, transform 0.3s ease;
+  border: none;  
+}  
+
+.login-btn, .signup-btn {  
+  background-color: #fff;  
+  color: #000;  
+}  
+
+.login-btn:hover, .signup-btn:hover {  
+  background-color: #f0f0f0; 
+  transform: translateY(-2px);
+}  
+
+.logout-btn {  
+  background-color: #e63946;  
+  color: #fff;  
+}  
+
+.logout-btn:hover {  
+  background-color: #d62839;
+  transform: translateY(-2px);
+}  
+
+@media (max-width: 768px) {  
+  .header {  
+    flex-direction: column;  
+    align-items: center;  
+    padding: 10px;  
+  }  
+
+  .nav-links {  
+    gap: 20px;  
+  }  
+
+  .auth-buttons {  
+    margin-top: 10px;  
+  }  
+}

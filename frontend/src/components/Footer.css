@@ -1,0 +1,93 @@
+.footer {  
+  background-color: #000;
+  color: #fff;  
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;  
+  padding: 20px;  
+  width: 100%;    
+  box-sizing: border-box;  
+}  
+ 
+.footer-left {  
+  display: flex;  
+  margin-left: -200px;
+  flex-direction: column;  
+}  
+
+.footer-brand a {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-brand a:hover {
+  color: #d3d3d3;
+}
+
+.footer-tagline {  
+  font-size: 16px;  
+  color: #d3d3d3;
+  max-width: 300px;  
+}  
+
+.footer-links {  
+  display: flex;  
+  gap: 30px;
+  list-style: none; 
+}  
+
+.footer-links a {  
+  color: #fff;  
+  text-decoration: none;  
+  font-size: 16px;  
+  transition: color 0.3s ease;  
+}  
+
+.footer-links a:hover {  
+  color: #d3d3d3;
+}  
+
+.footer-copyright {  
+  font-size: 14px;  
+  text-align: center;  
+}  
+
+html, body {  
+  height: 100%;  
+  margin: 0;  
+  padding: 0;  
+  overflow-x: hidden; 
+}  
+
+.app-container {  
+  display: flex;  
+  flex-direction: column;  
+  min-height: 100vh; 
+}  
+
+.main-content {  
+  flex: 1;
+}  
+
+@media (max-width: 768px) {  
+  .footer {  
+    flex-direction: column; 
+    text-align: center;
+    gap: 10px; 
+  }  
+
+  .footer-links {  
+    gap: 15px; 
+    justify-content: center;
+  }  
+}  
+
+.footer::before {  
+  content: '';  
+  display: block;  
+  height: 1px;  
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 20px; 
+}

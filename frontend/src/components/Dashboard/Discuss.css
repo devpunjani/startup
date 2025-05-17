@@ -1,0 +1,152 @@
+.discuss-container {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: "Inter", sans-serif;
+}
+
+.discuss-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.story-form {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  margin: 0 auto 3rem;
+}
+
+.form-title {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.story-form input,
+.story-form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #2d2d2d;
+  border: 1px solid #3d3d3d;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.story-form input:focus,
+.story-form textarea:focus {
+  outline: none;
+  border-color: #ffffff;
+}
+
+.story-form button {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.story-form button:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-2px);
+}
+
+.discussions-section {
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  color: #ffffff;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  border-left: 4px solid #ffffff;
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.story-card {
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 4px solid #ffffff;
+}
+
+.story-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.1);
+}
+
+.story-title {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+.story-content {
+  color: #cccccc;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.story-author {
+  color: #888888;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.delete-btn {
+  background-color: transparent;
+  color: #ff4444;
+  border: 1px solid #ff4444;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #ff4444;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .discuss-container {
+    padding: 1rem;
+  }
+
+  .discuss-title {
+    font-size: 2rem;
+  }
+
+  .story-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .story-form {
+    padding: 1.5rem;
+  }
+}
