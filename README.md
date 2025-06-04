@@ -19,11 +19,44 @@ An online platform built with the MERN stack that connects startups, entrepreneu
 
 ## 📸 Screenshots
 
-### 🖥️ Homepage
-![Homepage](screenshots/Screenshot (12).png)
+### 🏠 Homepage
+![Homepage](screenshots/homepage.png)
 
-### 🔐 Login Page
+### 🔐 Login
 ![Login](screenshots/login.png)
 
-### 📊 Dashboard
-![Dashboard](screenshots/dashboard.png)
+### 📝 Register
+![Register](screenshots/register.png)
+
+### 🧑‍💼 Entrepreneur Dashboard
+![Entrepreneur Dashboard](screenshots/entrepreneurdashboard.png)
+
+### 💼 Investor Dashboard
+![Investor Dashboard](screenshots/investordashboard.png)
+
+### 🌐 Browse Startups
+![Browse Startups](screenshots/browsestartups.png)
+
+### 👁️ View Startup
+![View Startup](screenshots/viewstartup.png)
+
+### 📈 Add Startup (Admin/Entrepreneur)
+![Add Startup](screenshots/addstartup.png)
+
+### 📤 Add Pitch
+![Add Pitch](screenshots/addpitch.png)
+
+### ✏️ Edit Startup
+![Edit Startup](screenshots/editstartup.png)
+
+### 📣 Pitching Mode
+![Pitching](screenshots/pitching.png)
+
+### 🚫 Not Pitching
+![Not Pitching](screenshots/notpitching.png)
+
+### 🧵 Discussion Forum (All Threads)
+![Discussion Forum All](screenshots/discussforumall.png)
+
+### 💬 Discussion Forum (User's Threads)
+![Discussion Forum](screenshots/discussforum.png)
