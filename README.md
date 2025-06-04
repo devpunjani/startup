@@ -15,4 +15,15 @@ An online platform built with the MERN stack that connects startups, entrepreneu
 - Backend: Node.js, Express.js
 - Database: MongoDB
 - Authentication: JWT
-- Other: RESTful APIs, WebSocket (if used), Cloudinary (if used)
+- Other: RESTful APIs
+
+## 📸 Screenshots
+
+### 🖥️ Homepage
+![Homepage](screenshots/Screenshot (12).png)
+
+### 🔐 Login Page
+![Login](screenshots/login.png)
+
+### 📊 Dashboard
+![Dashboard](screenshots/dashboard.png)
