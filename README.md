@@ -7,7 +7,7 @@ An online platform built with the MERN stack that connects startups, entrepreneu
 - Startup profiles and pitch submissions
 - Investor review and acceptance of startup pitches
 - Separate dashboards for entrepreneurs and investors
-- Funding application management
+- Discuss forum for users
 
 ## Tech Stack
 
@@ -40,7 +40,7 @@ An online platform built with the MERN stack that connects startups, entrepreneu
 ### 👁️ View Startup
 ![View Startup](screenshots/viewstartup.png)
 
-### 📈 Add Startup (Admin/Entrepreneur)
+### 📈 Add Startup
 ![Add Startup](screenshots/addstartup.png)
 
 ### 📤 Add Pitch
@@ -49,7 +49,7 @@ An online platform built with the MERN stack that connects startups, entrepreneu
 ### ✏️ Edit Startup
 ![Edit Startup](screenshots/editstartup.png)
 
-### 📣 Pitching Mode
+### 📣 Pitching
 ![Pitching](screenshots/pitching.png)
 
 ### 🚫 Not Pitching
